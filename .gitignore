@@ -1,6 +1,10 @@
-../../build/
-../../install/
-../../log/
-../
+# ROS 2 generated directories
+**/build/
+**/install/
+**/log/
+**/__pycache__/
+*.pyc
 
-
+# Accidental nested repository and local backup files
+Simulation/inventory_nav2_poc_ws/Mechatronics-Capstone/
+*.before_filters_fix
